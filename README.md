@@ -1,9 +1,9 @@
 # 🏥 Med7-Plus: Clinical Information Extraction & Medication NER System
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://med7-plus.streamlit.app)
-[![API Swagger Docs](https://img.shields.io/badge/Swagger%20Docs-FastAPI-009688?logo=fastapi&logoColor=white)](https://med7-plus-api.onrender.com/docs)
+[![Deploy to Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=ashwini25177/med7-plus&branch=main&mainModule=web_app/app_streamlit.py)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![spaCy](https://img.shields.io/badge/spaCy-v3.7+-09a3d5.svg)](https://spacy.io/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![CI Tests](https://img.shields.io/badge/Tests-10%20Passing-brightgreen.svg)]()
 
@@ -12,12 +12,13 @@
 
 ---
 
-## 🌐 Live Online Demos
+## 🌐 Instant Cloud Deployment & Demos
 
-Try the system directly in your browser without local installation:
+You can launch and use the interactive system in the cloud with zero setup:
 
-- 🖥️ **Interactive Web Dashboard**: [https://med7-plus.streamlit.app](https://med7-plus.streamlit.app)
-- ⚡ **REST API & Swagger Documentation**: [https://med7-plus-api.onrender.com/docs](https://med7-plus-api.onrender.com/docs)
+- 🚀 **1-Click Streamlit Cloud Deploy**: [![Deploy](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=ashwini25177/med7-plus&branch=main&mainModule=web_app/app_streamlit.py) *(Click to launch live web UI)*
+- 🖥️ **Local Web Dashboard**: `streamlit run web_app/app_streamlit.py` *(Runs on `http://localhost:8501`)*
+- ⚡ **Local REST API & Swagger UI**: `uvicorn web_app.api:app --reload` *(Runs on `http://localhost:8000/docs`)*
 
 ---
 
