@@ -1,0 +1,90 @@
+[
+  {
+    "id": "NOTE-001",
+    "category": "Discharge Summary - Cardiology",
+    "text": "Patient was admitted for acute decompensated heart failure. Discharge regimen: Furosemide 40 mg tablet PO once daily for 14 days. Metoprolol succinate 25 mg PO daily. Discontinued Lisinopril due to dry cough. Patient instructed to take Aspirin 81 mg oral daily with food.",
+    "entities": [
+      {"start": 79, "end": 89, "label": "DRUG", "text": "Furosemide"},
+      {"start": 90, "end": 95, "label": "STRENGTH", "text": "40 mg"},
+      {"start": 96, "end": 102, "label": "FORM", "text": "tablet"},
+      {"start": 103, "end": 105, "label": "ROUTE", "text": "PO"},
+      {"start": 106, "end": 116, "label": "FREQUENCY", "text": "once daily"},
+      {"start": 121, "end": 128, "label": "DURATION", "text": "14 days"},
+      {"start": 130, "end": 150, "label": "DRUG", "text": "Metoprolol succinate"},
+      {"start": 151, "end": 156, "label": "STRENGTH", "text": "25 mg"},
+      {"start": 157, "end": 159, "label": "ROUTE", "text": "PO"},
+      {"start": 160, "end": 165, "label": "FREQUENCY", "text": "daily"},
+      {"start": 180, "end": 190, "label": "DRUG", "text": "Lisinopril"},
+      {"start": 236, "end": 243, "label": "DRUG", "text": "Aspirin"},
+      {"start": 244, "end": 249, "label": "STRENGTH", "text": "81 mg"},
+      {"start": 250, "end": 254, "label": "ROUTE", "text": "oral"},
+      {"start": 255, "end": 260, "label": "FREQUENCY", "text": "daily"}
+    ]
+  },
+  {
+    "id": "NOTE-002",
+    "category": "Endocrinology Outpatient Note",
+    "text": "Assessment: Type 2 Diabetes Mellitus with peripheral neuropathy. Initiate Metformin 500 mg PO BID with meals. Patient continues on Lantus 20 units subcutaneous at bedtime. Withhold any SGLT2 inhibitors at this time.",
+    "entities": [
+      {"start": 74, "end": 83, "label": "DRUG", "text": "Metformin"},
+      {"start": 84, "end": 90, "label": "STRENGTH", "text": "500 mg"},
+      {"start": 91, "end": 93, "label": "ROUTE", "text": "PO"},
+      {"start": 94, "end": 97, "label": "FREQUENCY", "text": "BID"},
+      {"start": 132, "end": 138, "label": "DRUG", "text": "Lantus"},
+      {"start": 139, "end": 147, "label": "STRENGTH", "text": "20 units"},
+      {"start": 148, "end": 160, "label": "ROUTE", "text": "subcutaneous"},
+      {"start": 161, "end": 171, "label": "FREQUENCY", "text": "at bedtime"}
+    ]
+  },
+  {
+    "id": "NOTE-003",
+    "category": "Infectious Disease Consultation",
+    "text": "Patient completed 7 days of IV Vancomycin 1 g IV q12h. Step-down therapy initiated with Amoxicillin 500 mg capsule PO TID for 10 days to treat infection.",
+    "entities": [
+      {"start": 31, "end": 41, "label": "DRUG", "text": "Vancomycin"},
+      {"start": 42, "end": 45, "label": "STRENGTH", "text": "1 g"},
+      {"start": 46, "end": 48, "label": "ROUTE", "text": "IV"},
+      {"start": 49, "end": 53, "label": "FREQUENCY", "text": "q12h"},
+      {"start": 88, "end": 99, "label": "DRUG", "text": "Amoxicillin"},
+      {"start": 100, "end": 106, "label": "STRENGTH", "text": "500 mg"},
+      {"start": 107, "end": 114, "label": "FORM", "text": "capsule"},
+      {"start": 115, "end": 117, "label": "ROUTE", "text": "PO"},
+      {"start": 118, "end": 121, "label": "FREQUENCY", "text": "TID"},
+      {"start": 126, "end": 133, "label": "DURATION", "text": "10 days"},
+      {"start": 134, "end": 154, "label": "INDICATION", "text": "to treat infection"}
+    ]
+  },
+  {
+    "id": "NOTE-004",
+    "category": "Critical Care Admission",
+    "text": "Started on Heparin continuous IV infusion at 18 units/kg/hr. Patient denies taking Warfarin at home. Pain managed with Morphine 2 mg IV q4h PRN for severe pain.",
+    "entities": [
+      {"start": 11, "end": 18, "label": "DRUG", "text": "Heparin"},
+      {"start": 30, "end": 32, "label": "ROUTE", "text": "IV"},
+      {"start": 84, "end": 92, "label": "DRUG", "text": "Warfarin"},
+      {"start": 120, "end": 128, "label": "DRUG", "text": "Morphine"},
+      {"start": 129, "end": 133, "label": "STRENGTH", "text": "2 mg"},
+      {"start": 134, "end": 136, "label": "ROUTE", "text": "IV"},
+      {"start": 137, "end": 144, "label": "FREQUENCY", "text": "q4h PRN"},
+      {"start": 145, "end": 162, "label": "INDICATION", "text": "for severe pain"}
+    ]
+  },
+  {
+    "id": "NOTE-005",
+    "category": "Gastroenterology Discharge Note",
+    "text": "Discharge medications include Omeprazole 40 mg capsule PO once daily for 4 weeks for gastritis. Atorvastatin 40 mg tablet PO at bedtime continued for hyperlipidemia.",
+    "entities": [
+      {"start": 30, "end": 40, "label": "DRUG", "text": "Omeprazole"},
+      {"start": 41, "end": 46, "label": "STRENGTH", "text": "40 mg"},
+      {"start": 47, "end": 54, "label": "FORM", "text": "capsule"},
+      {"start": 55, "end": 57, "label": "ROUTE", "text": "PO"},
+      {"start": 58, "end": 68, "label": "FREQUENCY", "text": "once daily"},
+      {"start": 73, "end": 80, "label": "DURATION", "text": "4 weeks"},
+      {"start": 96, "end": 108, "label": "DRUG", "text": "Atorvastatin"},
+      {"start": 109, "end": 114, "label": "STRENGTH", "text": "40 mg"},
+      {"start": 115, "end": 121, "label": "FORM", "text": "tablet"},
+      {"start": 122, "end": 124, "label": "ROUTE", "text": "PO"},
+      {"start": 125, "end": 135, "label": "FREQUENCY", "text": "at bedtime"}
+    ]
+  }
+]
