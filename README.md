@@ -1,14 +1,23 @@
 # 🏥 Med7-Plus: Clinical Information Extraction & Medication NER System
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://med7-plus.streamlit.app)
+[![API Swagger Docs](https://img.shields.io/badge/Swagger%20Docs-FastAPI-009688?logo=fastapi&logoColor=white)](https://med7-plus-api.onrender.com/docs)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![spaCy](https://img.shields.io/badge/spaCy-v3.7+-09a3d5.svg)](https://spacy.io/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-FF4B4B.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![CI Tests](https://img.shields.io/badge/Tests-10%20Passing-brightgreen.svg)]()
 
 > **A Next-Generation Clinical Natural Language Processing & Medication Extraction System.**  
 > Built upon the foundational research of **Med7** (*Kormilitzin et al., Artificial Intelligence in Medicine, 2021*), upgraded with **Medication Slot Linking**, **NegEx Clinical Context Extraction (n2c2 2022)**, **RxNorm Drug Normalization**, and **HL7 FHIR R4 Interoperability**.
+
+---
+
+## 🌐 Live Online Demos
+
+Try the system directly in your browser without local installation:
+
+- 🖥️ **Interactive Web Dashboard**: [https://med7-plus.streamlit.app](https://med7-plus.streamlit.app)
+- ⚡ **REST API & Swagger Documentation**: [https://med7-plus-api.onrender.com/docs](https://med7-plus-api.onrender.com/docs)
 
 ---
 
