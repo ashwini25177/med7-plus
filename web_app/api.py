@@ -4,6 +4,14 @@ Provides high-performance RESTful API endpoints for clinical information extract
 entity recognition, medication relation linking, and FHIR export.
 """
 
+import sys
+from pathlib import Path
+
+# Add project root directory to sys.path so med7_plus is always importable
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from typing import List, Dict, Optional, Any

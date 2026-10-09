@@ -5,6 +5,13 @@ Run with: python demo.py
 
 import sys
 import json
+from pathlib import Path
+
+# Add project root directory to sys.path
+PROJECT_ROOT = Path(__file__).resolve().parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from med7_plus.extractor import Med7ClinicalExtractor
 from med7_plus.evaluator import ClinicalEvaluator
 
