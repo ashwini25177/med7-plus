@@ -105,8 +105,8 @@ Med7-Plus identifies the 7 core Med7 categories plus modern clinical extensions:
 
 ### 1. Clone & Set Up Environment
 ```bash
-git clone https://github.com/your-username/med7-clinical-extraction.git
-cd med7-clinical-extraction
+git clone https://github.com/ashwini25177/med7-plus.git
+cd med7-plus
 
 # Create virtual environment
 python -m venv venv
@@ -233,7 +233,7 @@ A comprehensive Jupyter Notebook is included at [`notebooks/01_clinical_ner_tuto
 ## 📁 Project Directory Structure
 
 ```
-med7-clinical-extraction/
+med7-plus/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml                 # Automated multi-version CI testing
