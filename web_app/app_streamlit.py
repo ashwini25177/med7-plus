@@ -203,7 +203,10 @@ if run_button or text_input:
                     "Certainty": ctx.get("certainty", "CONFIRMED")
                 })
 
-            st.dataframe(table_data, use_container_width=True)
+            try:
+                st.dataframe(table_data, width="stretch")
+            except TypeError:
+                st.dataframe(table_data, use_container_width=True)
 
     # Tab 3: FHIR Bundle
     with tab_fhir:
